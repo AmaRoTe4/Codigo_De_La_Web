@@ -1,19 +1,26 @@
 import React from 'react'
-import { Counter } from './Counter'
+import styles from './styles.module.css'
+import NavBar from '../../components/navbar/navbar'
+import Temas from '../../components/Temas/temas'
+import FoterMain from '../../components/FoterMain/FoterMain'
 
-export { Page }
-
-function Page() {
+export function Page() {
   return (
-    <>
-      <h1>Welcome</h1>
-      This page is:
-      <ul>
-        <li>Rendered to HTML.</li>
-        <li>
-          Interactive. <Counter />
-        </li>
-      </ul>
-    </>
+    <div className={`${styles.containerIndex} `}>
+      <NavBar title="Codigo de la Web" />
+      <main>
+        <h1>
+          Encuentra los enlaces que necesitas para comenzar con la programación web en nuestra página.
+        </h1>
+      </main>
+      <aside>
+        <input type="search" id="search" name="search" />
+      </aside>
+      <span>
+        <img src="/public/images/desarrollador-de-software.png" alt="imagen-desarrollador-de-software" />
+      </span>
+      <Temas />
+      <FoterMain />
+    </div>
   )
 }
