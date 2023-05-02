@@ -16,10 +16,10 @@ async function render(pageContext: PageContextServer) {
   )
 
   const documentHtml = escapeInject`<!DOCTYPE html>
-    <html lang="en">
+    <html lang="en" data-theme="light">
       <head>
         <meta charset="UTF-8" />
-        <link rel="icon" href="" />
+        <link rel="icon" href="/images/buscar.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="" />
         <title>Codigo de la Web</title>

@@ -4,8 +4,7 @@
     content: "";
     min-height: 100vh;
     width: 100vw;
-    background-image: url('/public/images/fondo.png');
-    background-size: cover;
+    background-color: rgb(35, 35, 35);
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -24,8 +23,7 @@
 
 .containerIndex main h1{
     color: var(--color-text);
-    text-shadow: 1px 1px 3px black;
-    max-width: 80%;
+    max-width: 85%;
     text-align: center;
     font-size: 16px;
 }
@@ -41,15 +39,18 @@
 .containerIndex aside input{
     padding: 0px;
     margin: 0px;
-    width: 70%;
+    width: 75%;
+    color: white;
 }
 
 .containerIndex span{
     display: flex;
     justify-content:center;
+    align-items:center;
     height: 60vh;
 }
 
 .containerIndex span img{
     object-fit: contain;
+    height: 300px;
 }

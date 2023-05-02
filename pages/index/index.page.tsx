@@ -10,17 +10,17 @@ export function Page() {
       <NavBar title="Codigo de la Web" />
       <main>
         <h1>
-          Encuentra los enlaces que necesitas para comenzar con la programación web en nuestra página.
+          Encuentra en nuestra página los enlaces que necesitas para guiarte en la programación web.
         </h1>
       </main>
       <aside>
         <input type="search" id="search" name="search" />
       </aside>
       <span>
-        <img src="/public/images/desarrollador-de-software.png" alt="imagen-desarrollador-de-software" />
+        <img src="/images/diseno-de-paginas-web.png" alt="imagen-desarrollador-de-software" />
       </span>
       <Temas />
-      <FoterMain />
+      {/*<FoterMain />*/}
     </div>
   )
 }
